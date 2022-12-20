@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    font-family: arial;
+}
+
+#wrapper {
+display: grid;
+grid-template-areas:
+'img hd hd hd hd'
+'s1 s1 s1 s1 s1'
+'s2 s2 s2 s2 s2'
+;
+}
+
+header{
+    display: grid;
+    grid-area: txt;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+img{
+    grid-area: img;
+    width: 200px;
+    height: auto;
+
+}
+
+#s1{
+    grid-area: s1;
+}
+#s2{
+    grid-area: s2;
+}
